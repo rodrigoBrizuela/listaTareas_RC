@@ -1,0 +1,28 @@
+body{
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.h2_title{
+    font-size: 4rem;
+    text-decoration: overline;
+    text-align: center;
+}
+
+.btn_cargar{
+    background-color: yellow;
+    margin: 8px;
+    width: 25%;
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 10px;
+    transition: all .2s ease-out;
+}
+
+.btn_cargar:hover{
+    border: 1px solid black;
+    transform: scale(1.1);
+    text-align: center;
+}
