@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/fondo.jpg);
+    background-image: url(/practica_proyecto2/img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -12,7 +12,7 @@ body{
 }
 
 .btn_cargar{
-    background-color: yellow;
+    background-color: #fdfd85;
     margin: 8px;
     width: 25%;
     padding: 5px 10px;
@@ -25,4 +25,16 @@ body{
     border: 1px solid black;
     transform: scale(1.1);
     text-align: center;
+}
+
+.notes{
+    border: 1px solid #ffff5a;
+    background-color: #fdfd85;
+    width: 25%;
+    min-height: 100px;
+    padding: 8px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
