@@ -1,5 +1,5 @@
 body{
-    background-image: url(/practica_proyecto2/img/fondo.jpg);
+    background-image: url(/img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -27,14 +27,26 @@ body{
     text-align: center;
 }
 
+#input_tarea{
+    background-color: whitesmoke;
+}
+
 .notes{
     border: 1px solid #ffff5a;
     background-color: #fdfd85;
     width: 25%;
     min-height: 100px;
-    padding: 8px;
+    padding: 3px;
     margin: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.btn_eliminar {
+    background-color: #FF5454;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
