@@ -34,7 +34,7 @@ function agregarTarea (){
         card.appendChild(div_btn);
         div_tareas.appendChild(card);
     } else{
-        alert("Debe ingresar una tarea!")
+        alert("Debe ingresar una tarea!");
     }
 
     input_tarea.value= "";
